@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings Page rendered correctly matches snapshot 1`] = `
+Array [
+  <div
+    className="block md:hidden flex bg-white border-b-xsm w-screen p-4"
+  >
+    <img
+      alt="Logo"
+      className=""
+      src="Logo.svg"
+    />
+    <img
+      alt="Logo"
+      className="ml-auto"
+      src="menu-2.svg"
+    />
+  </div>,
+  <div
+    className="p-5 bg-lightgray_200"
+  >
+    <div
+      className="title-container"
+    >
+      <h3
+        className="text-xxl_bold text-black_100 py-1"
+      >
+        Settings
+      </h3>
+      <p
+        className="text-xsm text-gray_100 py-1"
+      >
+        Manage your team and preferences here.
+      </p>
+    </div>
+    <div
+      className="container navbar-container w-screen overflow-x-auto"
+    >
+      <ul
+        className="flex my-5 border-2 w-auto"
+      >
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          My details
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Profile
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Password
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Team
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Plan
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Billing
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Notifications
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          Integrations
+        </li>
+        <li
+          className="px-4 min-w-max py-2 border-gray_200 border-b-xsm border-t-xsm border-r-xsm text-xxsm_bold bg-white text-gray_300 first-of-type:rounded-l-md first-of-type:border-l-xsm last-of-type:rounded-r-md"
+        >
+          API
+        </li>
+      </ul>
+    </div>
+    <div
+      className="mini_title-container py-5"
+    >
+      <h4
+        className="text-xmd_bold text-black_100"
+      >
+        Payment method 
+      </h4>
+      <p
+        className="text-xxsm text-gray_100"
+      >
+        Update your billing details and address.
+      </p>
+    </div>
+    <div
+      className="settings_payment_method"
+    >
+      <div
+        className="grid grid-cols-10 border-t-xsm border-gray_400 py-5"
+      >
+        <div
+          className="col-span-10 md:col-span-3 pb-3 md:pb-0 "
+        >
+          <h4
+            className="text-xxsm_bold text-gray_300"
+          >
+            Contact email
+          </h4>
+          <p
+            className="text-xxsm text-gray_100"
+          >
+            Where should invoices be sent?
+          </p>
+        </div>
+        <div
+          className="col-span-10 md:col-span-7"
+        >
+          <div
+            className="flex"
+          >
+            <div>
+              <img
+                alt="check"
+                className="pr-3 align-bottom pt-1"
+                src="circle_check.svg"
+              />
+            </div>
+            <div>
+              <h4
+                className="text-xxsm_bold text-gray_300"
+              >
+                Send to my account email
+              </h4>
+              <p
+                className="text-xxsm text-gray_100"
+              >
+                olivia@untitledui.com
+              </p>
+            </div>
+          </div>
+          <div
+            className="pt-4 flex"
+          >
+            <div>
+              <img
+                alt="check"
+                className="pr-3 align-bottom pt-1"
+                src="circle_dot_check.svg"
+              />
+            </div>
+            <div>
+              <h4
+                className="text-xxsm_bold text-gray_300 pb-3"
+              >
+                Send to an alternative email
+              </h4>
+              <div
+                className="search_container relative"
+              >
+                <img
+                  alt="mail"
+                  className="absolute left-2.5 top-3"
+                  src="mail.svg"
+                />
+                <input
+                  className="p-2 pl-10 block w-80 border-xsm text-xsm border-gray_200 shadow-shadow_100 rounded-lg placeholder:text-gray_100 placeholder:text-xsm "
+                  onChange={[Function]}
+                  placeholder="billing@untitledui.com"
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-11/12 md:w-full grid grid-cols-10 border-t-xsm border-gray_400 py-5"
+      >
+        <div
+          className="col-span-10 md:col-span-3 pb-3 md:pb-0"
+        >
+          <h4
+            className="text-xxsm_bold text-gray_300 "
+          >
+             Card details
+          </h4>
+          <p
+            className="text-xxsm text-gray_100"
+          >
+            Select default payment method.
+          </p>
+        </div>
+        <div
+          className="col-span-10 md:col-span-7"
+        >
+          <div
+            className="flex bg-purple_300 mb-3 rounded-lg border-xsm border-purple_400 p-4 cursor-pointer"
+          >
+            <div
+              className="pr-5"
+            >
+              <img
+                alt="visa"
+                src="visa.png"
+              />
+            </div>
+            <div
+              className="flex-1"
+            >
+              <p
+                className="text-xxsm_bold text-purple_200"
+              >
+                Visa ending in 1234
+              </p>
+              <p
+                className="pb-2 text-xxsm text-purple_100"
+              >
+                Expiry 06/2024
+              </p>
+              <span
+                className="pr-3 text-xxsm_bold text-purple_100"
+              >
+                Set as default
+              </span>
+              <span
+                className="text-xxsm_bold text-purple_200"
+              >
+                Edit
+              </span>
+            </div>
+            <div>
+              <img
+                alt="check"
+                className="pr-3 align-bottom pt-1"
+                src="circle_tick_check.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="flex bg-white p-4 border-xsm border-gray_400 rounded-lg cursor-pointer"
+          >
+            <div
+              className="pr-5"
+            >
+              <img
+                alt="visa"
+                src="mastercard.png"
+              />
+            </div>
+            <div
+              className="flex-1"
+            >
+              <p
+                className="text-xxsm_bold text-gray_300"
+              >
+                Mastercard ending in 1234
+              </p>
+              <p
+                className="pb-2 text-xxsm text-gray_100"
+              >
+                Expiry 06/2024
+              </p>
+              <span
+                className="pr-3 text-xxsm_bold text-gray_100"
+              >
+                Set as default
+              </span>
+              <span
+                className="text-xxsm_bold text-purple_200"
+              >
+                Edit
+              </span>
+            </div>
+            <div>
+              <img
+                alt="check"
+                className="pr-3 align-bottom pt-1"
+                src="circle_check.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="flex py-5"
+          >
+            <img
+              alt="visa"
+              className="pr-2"
+              src="plus.svg"
+            />
+            <p
+              className="text-xxsm_bold text-gray_100"
+            >
+              Add new payment method
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="settings_billing_table py-5"
+    >
+      <div
+        className="flex py-5"
+      >
+        <h4
+          className="text-xmd_bold text-black_100 flex-1"
+        >
+          Billing history
+        </h4>
+        <div
+          className="mr-5 md:mr-0 p-2 border-xsm bg-white cursor-pointer pr-5 rounded-md border-gray_200 flex"
+        >
+          <img
+            alt="download"
+            className="pl-2"
+            src="download.svg"
+          />
+          <span
+            className="pl-3 text-xxsm_bold text-gray_300"
+          >
+            Download all 
+          </span>
+        </div>
+      </div>
+      <div
+        className="w-screen md:w-full overflow-x-auto settings_billing_table"
+      >
+        <div
+          className="border-xsm rounded-md shadow-shadow_200 w-max md:w-full"
+        >
+          <div
+            className="table_head grid border-b-xsm grid-cols-12"
+          >
+            <div
+              className="col-span-4 p-2 flex text-xxxsm_bold text-gray_100"
+            >
+              <input
+                className="align-text-top mx-2"
+                type="checkbox"
+              />
+               Invoice
+               
+              <img
+                alt="arrow"
+                className="pl-1 w-4"
+                src="arrow-down.svg"
+              />
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxxsm_bold text-gray_100"
+            >
+              Amount
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxxsm_bold text-gray_100"
+            >
+              Date
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold text-gray_100"
+            >
+              Status
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxxsm_bold text-gray_100"
+            >
+              Users on plan
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold text-gray_100"
+            />
+          </div>
+          <div
+            className="table_body grid border-b-xsm grid-cols-12 bg-white"
+          >
+            <div
+              className="col-span-4 p-2 text-xxsm_bold text-black_100  flex align-middle"
+            >
+              <input
+                className="align-text-top mx-2"
+                type="checkbox"
+              />
+              <div
+                className="py-3"
+              >
+                Basic Plan – Dec 2022
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                USD $10.00
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                Dec 1, 2022
+              </div>
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold "
+            >
+              <span
+                className="tag flex text-green_200 bg-green-100 rounded-lg w-14 px-1.5 mt-3"
+              >
+                <img
+                  alt="tick"
+                  className="pr-1"
+                  src="check.svg"
+                />
+                Paid
+              </span>
+            </div>
+            <div
+              className="col-span-2 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3"
+                src="Avatar group1.svg"
+              />
+            </div>
+            <div
+              className="col-span-1 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3 pr-5 ml-auto"
+                src="download.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="table_body grid border-b-xsm grid-cols-12 bg-white"
+          >
+            <div
+              className="col-span-4 p-2 text-xxsm_bold text-black_100  flex align-middle"
+            >
+              <input
+                className="align-text-top mx-2"
+                type="checkbox"
+              />
+              <div
+                className="py-3"
+              >
+                Basic Plan – Dec 2022
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                USD $10.00
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100"
+            >
+              <div
+                className="py-3"
+              >
+                Dec 1, 2022
+              </div>
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold "
+            >
+              <span
+                className="tag flex text-green_200 bg-green-100 rounded-lg w-14 px-1.5 mt-3"
+              >
+                <img
+                  alt="tick"
+                  className="pr-1"
+                  src="check.svg"
+                />
+                Paid
+              </span>
+            </div>
+            <div
+              className="col-span-2 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3"
+                src="Avatars2.svg"
+              />
+            </div>
+            <div
+              className="col-span-1 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3 pr-5 ml-auto"
+                src="download.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="table_body grid border-b-xsm grid-cols-12 bg-white"
+          >
+            <div
+              className="col-span-4 p-2 text-xxsm_bold text-black_100  flex align-middle"
+            >
+              <input
+                className="align-text-top mx-2"
+                type="checkbox"
+              />
+              <div
+                className="py-3"
+              >
+                Basic Plan – Dec 2022
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                USD $10.00
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                Dec 1, 2022
+              </div>
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold "
+            >
+              <span
+                className="tag flex text-green_200 bg-green-100 rounded-lg w-14 px-1.5 mt-3"
+              >
+                <img
+                  alt="tick"
+                  className="pr-1"
+                  src="check.svg"
+                />
+                Paid
+              </span>
+            </div>
+            <div
+              className="col-span-2 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3"
+                src="Avatar group3.svg"
+              />
+            </div>
+            <div
+              className="col-span-1 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3 pr-5 ml-auto"
+                src="download.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="table_body grid border-b-xsm grid-cols-12 bg-white"
+          >
+            <div
+              className="col-span-4 p-2 text-xxsm_bold text-black_100  flex align-middle"
+            >
+              <input
+                className="align-text-top mx-2"
+                type="checkbox"
+              />
+              <div
+                className="py-3"
+              >
+                Basic Plan – Dec 2022
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                USD $10.00
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                Dec 1, 2022
+              </div>
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold bg-white "
+            >
+              <span
+                className="tag flex text-green_200 bg-green-100 rounded-lg w-14 px-1.5 mt-3"
+              >
+                <img
+                  alt="tick"
+                  className="pr-1"
+                  src="check.svg"
+                />
+                Paid
+              </span>
+            </div>
+            <div
+              className="col-span-2 p-2 bg-white"
+            >
+              <img
+                alt=""
+                className="pt-3"
+                src="Avatar group4.svg"
+              />
+            </div>
+            <div
+              className="col-span-1 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3 pr-5 ml-auto"
+                src="download.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="table_body grid border-b-xsm grid-cols-12 bg-white"
+          >
+            <div
+              className="col-span-4 p-2 text-xxsm_bold text-black_100  flex align-middle"
+            >
+              <input
+                className="align-text-top mx-2"
+                type="checkbox"
+              />
+              <div
+                className="py-3"
+              >
+                Basic Plan – Dec 2022
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                USD $10.00
+              </div>
+            </div>
+            <div
+              className="col-span-2 p-2 text-xxsm_bold text-gray_100 "
+            >
+              <div
+                className="py-3"
+              >
+                Dec 1, 2022
+              </div>
+            </div>
+            <div
+              className="col-span-1 p-2 text-xxxsm_bold "
+            >
+              <span
+                className="tag flex text-green_200 bg-green-100 rounded-lg w-14 px-1.5 mt-3"
+              >
+                <img
+                  alt="tick"
+                  className="pr-1"
+                  src="check.svg"
+                />
+                Paid
+              </span>
+            </div>
+            <div
+              className="col-span-2 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3"
+                src="Avatar group5.svg"
+              />
+            </div>
+            <div
+              className="col-span-1 p-2"
+            >
+              <img
+                alt=""
+                className="pt-3 pr-5 ml-auto"
+                src="download.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
