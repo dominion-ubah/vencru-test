@@ -11,7 +11,7 @@ const SearchBar = () => {
         value={searchtext}
         onChange={(e) => setSearchText(e.target.value)}
         placeholder="Search"
-        className="p-2 pl-10 border-xsm text-xsm border-gray_200 shadow-shadow_100 rounded-lg placeholder:text-gray_100 placeholder:text-xsm "
+        className="w-full p-2 pl-10 border-xsm text-xsm border-gray_200 shadow-shadow_100 rounded-lg placeholder:text-gray_100 placeholder:text-xsm "
       />
     </div>
   );
